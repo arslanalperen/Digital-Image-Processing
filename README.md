@@ -37,17 +37,22 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#test heading">FIFO Functions</a>
+      <a href="#test-heading">test heading</a>
       <ul>
-        <li><a href="test sub heading">fifo init</a></li>
+        <li><a href="test-sub-heading">test sub heading</a></li>
       </ul>
     </li>
   </ol>
 </details>
 
+Digital image processing lesson works. Lesson book is "Digital Image Processing 3rd Edition by Rafael C. Gonzalez and Richard E. Woods". Works in progress...
+
+<!--
+
 ```sh
   test code
 ```
+
 
 ## Test
 
@@ -55,6 +60,8 @@
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+-->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
