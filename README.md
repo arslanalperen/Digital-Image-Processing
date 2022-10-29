@@ -16,19 +16,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">repo</h3>
+  <h3 align="center">Digital Image Processing Works</h3>
 
   <p align="center">
     Repo description
     <br />
-    <a href="https://github.com/arslanalperen/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/arslanalperen/Digital-Image-Processing"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/arslanalperen/repo">View Demo</a>
+    <a href="https://github.com/arslanalperen/Digital-Image-Processing">View Demo</a>
     ·
-    <a href="https://github.com/arslanalperen/repo/issues">Report Bug</a>
+    <a href="https://github.com/arslanalperen/Digital-Image-Processing/issues">Report Bug</a>
     ·
-    <a href="https://github.com/arslanalperen/repo/issues">Request Feature</a>
+    <a href="https://github.com/arslanalperen/Digital-Image-Processing/issues">Request Feature</a>
   </p>
 </div>
 
@@ -37,17 +37,22 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#test heading">FIFO Functions</a>
+      <a href="#test-heading">test heading</a>
       <ul>
-        <li><a href="test sub heading">fifo init</a></li>
+        <li><a href="test-sub-heading">test sub heading</a></li>
       </ul>
     </li>
   </ol>
 </details>
 
+Digital image processing lesson works. Lesson book is "Digital Image Processing 3rd Edition by Rafael C. Gonzalez and Richard E. Woods". Works in progress...
+
+<!--
+
 ```sh
   test code
 ```
+
 
 ## Test
 
@@ -55,6 +60,8 @@
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+-->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
