@@ -16,12 +16,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Digital Image Processing Works</h3>
+  <h3 align="center">Digital Image Processing Lesson</h3>
 
 ![Status][ongoing-shield]
 
   <p align="center">
-    Repo description
+    Digital image processing lesson works. Lesson book is "Digital Image Processing 3rd Edition by Rafael C. Gonzalez and Richard E. Woods"
     <br />
     <a href="https://github.com/arslanalperen/Digital-Image-Processing"><strong>Explore the docs »</strong></a>
     <br />
@@ -33,37 +33,6 @@
     <a href="https://github.com/arslanalperen/Digital-Image-Processing/issues">Request Feature</a>
   </p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#test-heading">Heading title</a>
-      <ul>
-        <li><a href="test-sub-heading">Sub-heading title</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
-Digital image processing lesson works. Lesson book is "Digital Image Processing 3rd Edition by Rafael C. Gonzalez and Richard E. Woods".
-
-<!--
-
-```sh
-  test code
-```
-
-
-## Test
-
-<div align="center"> <img src="test.png"> </div>
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
