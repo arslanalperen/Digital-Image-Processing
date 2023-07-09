@@ -37,7 +37,33 @@
 
 <br />
 
-<!-- LAB00 -->
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#image-negatives">Image Negatives</a>
+    </li>
+        <li>
+      <a href="#log-transformations">Log Transformations</a>
+    </li>
+        <li>
+      <a href="#power-law-gamma-transformations">Power Law (Gamma) Transformations</a>
+    </li>
+        <li>
+      <a href="#spatial-linear-filters">Spatial Linear Filters</a>
+    </li>
+        <li>
+      <a href="#order-statistic-nonlinear-filters">Order-Statistic (Nonlinear) Filters</a>
+    </li>
+        </li>
+        <li>
+      <a href="#references">References</a>
+    </li>
+  </ol>
+</details>
+
+<br />
 
 <div style='text-align: justify;'>
 
