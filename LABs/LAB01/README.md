@@ -104,17 +104,17 @@ We note that, as gamma decreased from 0.6 to 0.4, more detail became visible. A 
 
 &emsp;The idea behind smoothing filters is straightforward. By replacing the value of every pixel in an image by the average of the intensity levels in the neighborhood defined by the filter mask, this process results in an image with reduced “sharp” transitions in intensities. Because random noise typically consists of sharp transitions in intensity levels, the most obvious application of smoothing is noise reduction. However, edges (which almost always are desirable features of an image) also are characterized by sharp intensity transitions, so averaging filters have the undesirable side effect that they blur edges. An other application of this type of process includes the smoothing of false contours that result from using an insufficient number of intensity levels. A major use of averaging filters is in the reduction of “irrelevant” detail in an image. By “irrelevant” we mean pixel regions that are small with respect to the size of the filter mask. This latter application is illustrated later in this section [1].
 
-$$ R = \frac{1}{m*n} {\sum_{1}^{m*n} z_i} $$
+$$ R = \frac{1}{m * n} {\sum_{1}^{m * n} z_i} $$
 
 &emsp;An $m * n$ mask would have a normalizing constant equal to $1/mn$. A spatial averaging filter in which all coefficients are equal sometimes is called a box filter [1].
 
 &emsp;The second mask in Fig. 3.32 is a little more interesting. This mask yields a so called weighted average, terminology used to indicate that pixels are multiplied by different coefficients, thus giving more importance (weight) to some pixels at the expense of others. In the mask shown in Fig. 3.32(b) the pixel at the center of the mask is multiplied by a higher value than any other, thus giving this pixel more importance in the calculation of the average. The other pixels are inversely weighted as a function of their distance from the center of the mask.The diagonal terms are further away from the center than the orthogonal neighbors (by a factor of 12) and, thus, are weighed less than the immediate neighbors of the center pixel. The basic strategy behind weighing the center point the highest and then reducing the value of the coefficients as a function of increasing distance from the origin is simply an attempt to reduce blurring in the smoothing process.We could have chosen other weights to accomplish the same general objective. However, the sum of all the coefficients in the mask of Fig. 3.32(b) is equal to 16, an attractive feature for computer implementation because it is an integer power of 2. In practice, it is difficult in general to see differences between images smoothed by using either of the masks in Fig. 3.32, or similar arrangements, because the area spanned by these masks at any one location in an image is so small. Two 3x3 smoothing (averaging) filter masks shown in below. The constant multiplier in front of each mask is equal to 1 divided by the sum of the values of its coefficients, as is required to compute an average [1].
 
-<center>
-<table>
+<br/>
+<table align="center">
 <tr><th> <center> S.F. </center> </th><th> <center> Wei. Av. SF. </center> </th></tr>
 <tr><td>
-
+  
 |   |   |   |
 |:-:|:-:|:-:|
 | 1 | 1 | 1 |
@@ -131,9 +131,8 @@ $$ R = \frac{1}{m*n} {\sum_{1}^{m*n} z_i} $$
 | 1 | 2 | 1 |
 |   |   |   |
 
-
 </td></tr> </table>
-</center>
+<br/>
 
 &emsp;The second mask (weighted average smoothing filter) is a little more interesting. This mask yields a so called weighted average, terminology used to indicate that pixels are multiplied by different coefficients, thus giving more importance (weight) to some pixels at the expense of others. In the mask the pixel at the center of the mask is multiplied by a higher value than any other, thus giving this pixel more importance in the calculation of the average. The other pixels are inversely weighted as a function of their distance from the center of the mask.The diagonal terms are further away from the center than the orthogonal neighbors (by a factor of 12) and, thus, are weighed less than the immediate neighbors of the center pixel. The basic strategy behind weighing the center point the highest and then reducing the value of the coefficients as a function of increasing distance from the origin is simply an attempt to reduce blurring in the smoothing process.We could have chosen other weights to accomplish the same general objective. However, the sum of all the coefficients in the mask is equal to 16, an attractive feature for computer implementation because it is an integer power of 2. In practice, it is difficult in general to see differences between images smoothed by using either of the masks, or similar arrangements, because the area spanned by these masks at any one location in an image is so small [1].
 
